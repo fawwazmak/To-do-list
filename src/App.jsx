@@ -77,7 +77,7 @@ function App() {
       }
 
       {
-        step === 3 && <Dashboard userName={userName} setUserName={setUserName} tasks={tasks} addTask={addTask} setTaskName={setTaskName} taskName={taskName} priority={priority} setPriority={setPriority} removeTask={removeTask}  />
+        step === 3 && <Dashboard userName={userName} setUserName={setUserName} tasks={tasks} addTask={addTask} setTaskName={setTaskName} taskName={taskName} priority={priority} setPriority={setPriority} removeTask={removeTask} setTasks={setTasks}  />
       }
     </div>
   )
